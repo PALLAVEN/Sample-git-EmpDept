@@ -1,0 +1,9 @@
+-- fetch 
+1 SELECT * FROM EMPLOYEE WHERE 
+ empsal BETWEEN 20000 and 3000 
+2 SELECT empname FROM Employee WHERE empname LIKE '_T%'
+3 SELECT *FROM department WHERE  deptloc='Chennai'
+4  SELECT *FROM department WHERE  deptloc='Chennai' or deptloc='hyderabad'
+5  SELECT *FROM department WHERE deptloc NOTIN( 'Chennai','hyderabad')
+
+
