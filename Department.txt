@@ -1,0 +1,14 @@
+--Department(deptid,deptname,deptloc)
+CREATE TABLE department (
+  deptId INTEGER PRIMARY KEY,
+  deptname TEXT NOT NULL,
+  emploc text not null
+);
+
+-- insert
+INSERT INTO department VALUES (0001, 'management','hyderabad' );
+INSERT INTO department VALUES (0002, 'hr','chennai' );
+INSERT INTO department VALUES (0003, 'R&D','pune');
+
+-- fetch 
+
